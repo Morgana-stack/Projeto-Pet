@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inforcacao.css">
+    <title>Agendamento</title>
+</head>
+
+<body>
+
+    <div class="faixa-topo">
+        <div class="topo-barra">
+            <div class="topo-esquerda">
+                <p class="endereco">Rua: Antônio João Luiz, 00 – Rio das Ostras Maranhão. I</p>
+                <p class="horario">Atendemos todos os dias das 8:00 às 20:00</p>
+            </div>
+            <div class="topo-direita">
+                <a href="#" class="btn-exames">RESULTADO DE EXAMES</a>
+                <a href="https://business.whatsapp.com/?lang=pt_BR"  class="btn-emergencia" target="_blank">
+                    EMERGENCIA 24HRS</a>
+            </div>
+        </div>
+        <div class="topo-menu">
+            <div class="menu-principal">
+                <a href="http://127.0.0.1:3000/index.html?serverWindowId=469407a8-0aac-4ab2-b61a-d22881dd5191#">Home</a>
+                <a href="informacao.html">Quem Somos</a>
+                <img src="imagens/logo-capa.png" alt="logotipo-da-marca">
+                <a href="agenda.html" target="_blank">Serviços</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+    </div>
+    <section class="banner">
+        <img src="imagens/banner.webp" class="banner-bg2" alt="cachorrinhos">
+        <img src="imagens/mancha-laranja.png" class="shape-laranja2" alt="forma-laranja">
+        <img src="imagens/gato.webp" class="img-gato2" alt="gato">
+    </section>
+
+    <section class="agd-container">
+        <div class="agd-texto">
+            <h1>Agende seu atendimento de forma rápida de segura</h1>
+            <p>Escolha o melhor horário para você</p>
+        </div>
+    </section>
+
+    <section class="agd-consulta">
+        <div class="agd-icon">
+            <h2>Selecione o tipo de consulta:</h2>
+            <a href="#">
+                <img src="imagens/cons.rotina.jpg" alt="consulta-de-rotina">
+            </a>
+            <a href="#">
+                <img src="imagens/primeira.consulta.jpg" alt="primeira-consulta">
+            </a>
+            <a href="#">
+                <img src="imagens/retorno.jpg" alt="retorno-de-consulta">
+            </a>
+            <a href="#">
+                <img src="imagens/avaliacao.jpg" alt="avaliacao">
+            </a>
+        </div>
+    </section>
+    <div id="profissionais">
+        <h2>Escolha o profisional:</h2>
+    </div>
+    <section class="profissional">
+        <div class="profissional-img">
+            <img src="imagens/rafael.jpg" alt="dr-rafael">
+            <img src="imagens/laura.jpg" alt="dra-laura">
+        </div>
+    </section>
+    <section class="agd-data">
+        <h2>Selecione a data e horário:</h2>
+
+        <div class="agd-container2">
+            <div class="calendario">
+                <div class="cal-topo">
+                    <span>◀</span>
+                    <h3>Maio 2026</h3>
+                    <span>▶</span>
+                </div>
+                <div class="cal-semana">
+                    <span>DOM</span>
+                    <span>SEG</span>
+                    <span>TER</span>
+                    <span>QUA</span>
+                    <span>QUI</span>
+                    <span>SEX</span>
+                    <span>SÁB</span>
+                </div>
+                <div class="cal-dias">
+                    <button type="button">1</button>
+                    <button type="button">2</button>
+                    <button type="button">3</button>
+                    <button type="button">4</button>
+                    <button type="button">5</button>
+                    <button type="button">6</button>
+                    <button type="button">7</button>
+                    <button type="button">8</button>
+                    <button type="button">9</button>
+                    <button type="button">10</button>
+                    <button type="button">11</button>
+                    <button type="button">12</button>
+                    <button type="button">13</button>
+                    <button type="button">14</button>
+                    <button type="button">15</button>
+                    <button type="button">16</button>
+                    <button type="button" class="dia-ativo">17</button>
+                    <button type="button">18</button>
+                    <button type="button">19</button>
+                    <button type="button">20</button>
+                    <button type="button">21</button>
+                    <button type="button">22</button>
+                    <button type="button">23</button>
+                    <button type="button">24</button>
+                    <button type="button">25</button>
+                    <button type="button">26</button>
+                    <button type="button">27</button>
+                    <button type="button">28</button>
+                    <button type="button">29</button>
+                    <button type="button">30</button>
+                </div>
+            </div>
+            <div class="horarios">
+                <h3>Horários disponíveis:</h3>
+                <button type="button">09:00</button>
+                <button type="button">09:30</button>
+                <button type="button">10:00</button>
+                <button type="button">10:30</button>
+            </div>
+        </div>
+    </section>
+    <section class="cadastro">
+        <div class="menu-cadastro">
+            <div class="menu-dados">
+                <h2>Seus Dados:</h2>
+                <form action="#" method="post">
+                    <label for="username">Nome completo</label>
+                    <input type="text" id="username" name="username" placeholder="Nome completo"><br><br>
+                    <label for="numero">Telefone / WhatsApp</label>
+                    <input type="text" name="numero" id="numero" placeholder="Telefone / WhatsApp"><br><br>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail"><br><br>
+                    <label for="texto">Morivo da consulta (Opcional)</label>
+                    <textarea name="texto" id="texto" rows="3" cols="0"
+                        placeholder="Morivo da consulta (Opcional)"></textarea>
+                </form>
+            </div>
+            <div class="agd-confirme">
+                <h2>Confirme seu agendamento</h2>
+                <p>
+                    <img src="imagens/icone-certinho.png" class="icon-certo" alt="icone-certinho">
+                    Consulta de Rotina
+                </p>
+                <p>
+                    <img src="imagens/icone-certinho.png" class="icon-certo" alt="icone-certinho">
+                    Dr. Rafael Medeiros
+                </p>
+                <p>
+                    <img src="imagens/icone-certinho.png" class="icon-certo" alt="icone-certinho">
+                    Data: 17 de Maio de 2026
+                </p>
+                <p>
+                    <img src="imagens/icone-certinho.png" class="icon-certo" alt="icone-certinho">
+                    Horário: 10:00
+                </p>
+
+                <form action="#">
+                    <button type="submit" id="btn-agendar">Agendar minha consulta</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="parceiros">
+        <div class="parceiros-container">
+            <h2>Nossos parceiros</h2>
+            <span class="linha"></span>
+            <div class="logos-parceiros">
+                <img src="imagens/logo-premier-pet.png" alt="Premier pet">
+                <img src="imagens/logo-zoetis.png" alt="Zoetis">
+                <img src="imagens/logo-abhv.png" alt="ABHV">
+                <img src="imagens/logo-agener.png" alt="Agener União">
+                <img src="imagens/logo-idexx.png" alt="IDEXX">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="imagens/logo-san-satri.png" alt="">
+            </div>
+            <div class="footer-contato">
+                <h5> Central de agendamento e emergência 24h</h5>
+                <p>Todos os dias – 08:00 às 20:00 <br>
+                    (48) 0000-0000</p>
+            </div>
+            <div class="footer-redes">
+                <a href="#">
+                    <img src="imagens/instagran.jpg" alt="instagram">
+                </a>
+                <a href="#">
+                    <img src="imagens/facebook.jpg" alt="facebook">
+                </a>
+            </div>
+            <div class="footer-endereco">
+                <address>
+                    Rua: Antônio João Luiz,<br>
+                    0000 – Rio das Ostras<br>
+                    Maranhão
+                </address>
+                <p class="cnpj">
+                    CNPJ 00.000.000/0000-00
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/faq.js"></script>
+</body>
+
+</html>
